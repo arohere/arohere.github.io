@@ -118,7 +118,12 @@ a.leftlink:hover {
 .des {
     font-family: 'Lato', sans-serif;
     line-height: 1.4;
-    font-size: 0.7rem;
+    font-size: 0.75rem;
+}
+
+.para {
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .image {
