@@ -5,7 +5,7 @@
     --rightside: #A2B0C6;
     --leftside-text: #ffffff;
     --rightside-text: #0C1B3A;
-    --shadow-color: #020a1a;
+    --shadow-color: #050e22e3;
     --projectbox: rgb(181, 147, 147);
     --corner-rad: 10px;
 }
@@ -21,7 +21,7 @@ body {
     overflow: hidden;
     border: var(--leftside-text) 2px solid;
     border-radius: 10px;
-    box-shadow: var(--shadow-color) 2px 2px 2px;
+    box-shadow: var(--shadow-color) 10px 10px 10px;
 }
 
 .leftside {
