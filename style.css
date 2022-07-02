@@ -1,12 +1,17 @@
 :root {
-    --backdrop: #E3DFFF;
+    --backdrop: #0C1B3A;
     --content: #D3C0CD;
-    --leftside: #D3C0CD;
-    --rightside: #937666;
-    --leftside-text: #3D3A4B;
-    --rightside-text: #23202d;
+    --leftside: #42546C;
+    --rightside: #A2B0C6;
+    --leftside-text: #ffffff;
+    --rightside-text: #0C1B3A;
+    --shadow-color: #020a1a;
     --projectbox: rgb(181, 147, 147);
     --corner-rad: 10px;
+}
+
+body {
+    background-color: var(--backdrop);
 }
 
 .contentbox {
@@ -16,7 +21,7 @@
     overflow: hidden;
     border: var(--leftside-text) 2px solid;
     border-radius: 10px;
-    box-shadow: var(--leftside-text) 2px 2px 2px;
+    box-shadow: var(--shadow-color) 2px 2px 2px;
 }
 
 .leftside {
@@ -35,13 +40,14 @@ span {
 }
 
 a {
-    color: black;
     text-decoration: none;
+    /* transition: 0.2s; */
+    color: inherit;
     transition: 0.2s;
 }
 
-a:hover {
-    color: azure;
+a.leftlink:hover {
+    color: var(--rightside-text);
 }
 
 .rightside {
@@ -130,9 +136,39 @@ img {
 .profilebox {
     margin-left: 10px;
     padding-left: 10px;
-    padding-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .profiledes {
     margin-top: 15px;
 }
+
+.iconbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 20px;
+}
+
+.icons-pack {
+    font-size: 50px;
+    color: inherit;
+    transition: 0.2s;
+}
+
+.icons-pack:hover {
+    color: var(--leftside);
+}
+
+ol {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* 
+.icon-page {
+    display: flex;
+} */
