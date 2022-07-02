@@ -68,8 +68,9 @@ a.leftlink:hover {
 
 .contact {
     margin-left: 40px;
+    line-height: 1.4;
     font-family: 'Open Sans', sans-serif;
-    font-size: 0.85rem;
+    font-size: 0.75rem;
 }
 
 .sepp {
@@ -165,6 +166,9 @@ ol {
     list-style-type: none;
     padding: 0px;
     margin: 0px;
+    font-size: 0.8rem;
+    line-height: 2;
+    font-weight: 700;
 }
 
 
