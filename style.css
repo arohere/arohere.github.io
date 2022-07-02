@@ -1,0 +1,105 @@
+:root {
+    --backdrop: rgb(255, 255, 255);
+    --content: rgb(27, 27, 21);
+    --leftside: rgb(135, 135, 85);
+    --rightside: rgb(117, 117, 25);
+    --projectbox: rgb(181, 147, 147);
+}
+
+.contentbox {
+    margin: 10vh 20vw;
+    display: flex;
+    background-color: var(--content);
+    flex-direction: row;
+}
+
+.leftside {
+    min-height: 100px;
+    background-color: var(--leftside);
+    width: 70%;
+    padding-top: 0px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+span {
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+a:hover {
+    color: azure;
+}
+
+.rightside {
+    min-height: 100px;
+    background-color: var(--rightside);
+    width: 30%;
+}
+
+.nameholder {
+    letter-spacing: 1.6px;
+    margin-left: 40px;
+    margin-top: 50px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+}
+
+.contact {
+    margin-left: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.85rem;
+}
+
+.sepp {
+    border: 1px solid black;
+    margin-right: 8px;
+    margin-left: 4px;
+}
+
+.projects {
+    margin-top: 70px;
+    justify-content: right;
+    justify-items: right;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.education {
+    margin-top: 30px;
+    justify-content: right;
+    justify-items: right;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.titleholder {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.6rem;
+    letter-spacing: 1.5px;
+}
+
+.projects {
+    /* background-color: var(--projectbox); */
+    padding: 10px;
+}
+
+.title {
+    letter-spacing: 1.5px;
+    margin-top: 15px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.1rem;
+    margin-bottom: 3px;
+}
+
+.des {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.4;
+    font-size: 0.7rem;
+}
