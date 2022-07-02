@@ -1,16 +1,22 @@
 :root {
-    --backdrop: rgb(255, 255, 255);
-    --content: rgb(27, 27, 21);
-    --leftside: rgb(135, 135, 85);
-    --rightside: rgb(117, 117, 25);
+    --backdrop: #E3DFFF;
+    --content: #D3C0CD;
+    --leftside: #D3C0CD;
+    --rightside: #937666;
+    --leftside-text: #3D3A4B;
+    --rightside-text: #23202d;
     --projectbox: rgb(181, 147, 147);
+    --corner-rad: 10px;
 }
 
 .contentbox {
     margin: 10vh 20vw;
     display: flex;
-    background-color: var(--content);
     flex-direction: row;
+    overflow: hidden;
+    border: var(--leftside-text) 2px solid;
+    border-radius: 10px;
+    box-shadow: var(--leftside-text) 2px 2px 2px;
 }
 
 .leftside {
@@ -20,6 +26,7 @@
     padding-top: 0px;
     padding-left: 30px;
     padding-bottom: 20px;
+    color: var(--leftside-text);
 }
 
 span {
@@ -42,6 +49,7 @@ a:hover {
     background-color: var(--rightside);
     width: 30%;
     padding-right: 25px;
+    color: var(--rightside-text);
 }
 
 .nameholder {
