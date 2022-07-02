@@ -122,12 +122,9 @@ img {
 .profilebox {
     margin-left: 10px;
     padding-left: 10px;
+    padding-bottom: 40px;
 }
 
 .profiledes {
     margin-top: 15px;
-}
-
-.rightbox {
-    margin-top: 40px;
 }
