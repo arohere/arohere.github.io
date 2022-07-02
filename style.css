@@ -41,6 +41,7 @@ a:hover {
     min-height: 100px;
     background-color: var(--rightside);
     width: 30%;
+    padding-right: 25px;
 }
 
 .nameholder {
@@ -121,4 +122,12 @@ img {
 .profilebox {
     margin-left: 10px;
     padding-left: 10px;
+}
+
+.profiledes {
+    margin-top: 15px;
+}
+
+.rightbox {
+    margin-top: 40px;
 }
